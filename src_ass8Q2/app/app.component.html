@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left">
+    <h1>CHILD TO PARENT AND PARENT TO CHILD COMMUNICATION</h1>
+    <table border=1 cellpadding=30 >
+      <tr>
+        <th>PARENT</th>
+        <th>CHILD</th>
+      </tr>
+      <td>
+          {{childToParentMessage}}
+      </td>
+      <td>
+          <app-child (childObjectEmitter)="childToParentMessage = $event" [parentToChildData]="Message"></app-child>
+      </td>
+    </table>
+  </div>
+
+

@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left">
+  <h1>CHILD TO PARENT COMMUNICATION</h1>
+  <table border=1 cellpadding=30 >
+    <tr>
+      <th>PARENT</th>
+      <th>CHILD</th>
+    </tr>
+    <td>
+      {{Data}}
+    </td>
+    <td>
+        <app-child (sharedObject)="Data = $event"></app-child>
+    </td>
+  </table>
+</div>
+
+
