@@ -1,0 +1,43 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center" class="container">
+  <alert type="info">
+    <h1><strong>Bug Report</strong></h1> 
+    <br/>Please be as detailed as possible to aid us in the troubleshooting process
+  </alert>
+  <form action="">
+      <div style="text-align:left">
+          Your name*<br/>
+      </div>
+      <table cellpadding=5>
+        <tr>
+          <td><input type="text" class="form-control" placeholder="First Name"></td>
+          <td><input type="text" class="form-control" placeholder="Last Name"></td>
+        </tr>
+      </table>
+      <br/>
+      <div style="text-align:left">
+          Email*<br/>
+      </div>
+      <input type="text" class="form-control" placeholder="Email ID"><br/>
+      <div style="text-align:left">
+          Date Time you first noticed the bug*<br/>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-12 col-md-4 form-group">
+          <bs-datepicker-inline [bsValue]="bsInlineValue"></bs-datepicker-inline>
+        </div>
+      </div>
+      <div style="text-align:left">
+        Impact<br/>
+      </div>
+      <select class="form-control" id="sel1">
+        <option>LOW</option>
+        <option>HIGH</option>
+      </select><br/>
+      <div style="text-align:left">
+        Detailed Explaination of Bug*<br/>
+      </div>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+  </form>
+</div>
+
