@@ -46,3 +46,8 @@ testem.log
 Thumbs.db
 /node_modules
 /.editorconfig
+#firebase data
+/src_formValidations
+/.firebaserc
+/firebase.json
+/.firebase
